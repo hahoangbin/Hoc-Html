@@ -1,8 +1,9 @@
-#first-heading{
-    color: red;
+html {
+    color: violet;
 }
-
-.second-heading {
-    color: green;
-    font-size: 20px;
+li {
+    color: red !important;
+}
+li {
+    color: gray;
 }
