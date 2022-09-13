@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>F8-Shop</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.CSS">
+        <style>
+            html, body {
+                margin: 0;
+            }
+            .box    {
+                width: 100%;
+                height: 120px;
+                background: rgb(190, 124, 157);
+            }
+            a::after {
+                content: "(" attr(href) ")";
+            }
+            .box::after {
+                content: attr(data-title);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box" data-title=" xin chào các bạn"></div>
+        <a href="http://fullskin.abc.com.vn">Học lập trình</a>
+            <h1>CSS function?</h1>
+            <ul>
+                <li>var()</li>
+                <li>linear-gradient</li>
+                <li>rgba()</li>
+                <li>rgb()</li>
+                <li>calc()</li>
+                <li>attr()</li>
+            </ul>
+    </body>
+</html>
