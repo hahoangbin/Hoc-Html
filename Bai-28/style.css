@@ -11,5 +11,30 @@
 }
 
 .card .btn {
+
+}
+
+
+/* BEM */
+.card {
+
+}
+
+.card--success .card__btn {
+/*  mau xanh */
+}
+
+.card--error .card__btn {
+    /* mau do */
+}
+.card .heading {
+
+}
+
+.card .desc {
+
+}
+
+.card .btn {
     
 }

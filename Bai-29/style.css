@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Helvetica Neue';
+
+}
+
+body > div {
+    margin: auto;
+}
+
+
+/* Block */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 12px 48px;
+    border-radius: 48px;
+    min-width: 130px;
+    cursor: pointer;
+    transition: opacity 0.2 ease;
+
+}
+
+
+
+.btn--size-s {
+    padding: 8px 30px;
+}
+
+.btn--size-l {
+    padding: 20px 65px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn +.btn {
+    margin: 20px;
+}
+
+.btn--success {
+    background-color: #71be34;
+}
+.btn--warn {
+    background-color: #ffb702;
+}
+.btn--danger {
+    background-color: #ff623d;
+}
