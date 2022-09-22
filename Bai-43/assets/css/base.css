@@ -33,7 +33,7 @@ html {
 }
 
 /* animation */
-@keyfames fadeIn {
+@keyframes fadeIn {
     from {
         opacity: 0;
     }
@@ -47,7 +47,7 @@ html {
         transform: scale(var(--growth-form));
     }
     to {
-        transform: scale(var(--growth-to    ));
+        transform: scale(var(--growth-to));
     }
 }
 
