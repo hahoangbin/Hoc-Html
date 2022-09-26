@@ -69,10 +69,6 @@
     top: -22px;
 }
 
-.header__navbar-user-item {
-
-}
-
 .header__navbar-user-item a {
     text-decoration: none;
     color: var(--text-color);
