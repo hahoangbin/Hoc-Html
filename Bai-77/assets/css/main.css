@@ -38,6 +38,7 @@
     margin-left: 4px;
     font-size: 1.4rem;
     font-weight: 400;
+    z-index: 1;
 }
 
 .header__navbar-user:hover .header__navbar-user-menu {
@@ -499,7 +500,6 @@
     background-color: var(--white-color);
     display: flex;
     align-items: center;
-    z-index: 1;
 }
 
 .header__cart {
@@ -512,7 +512,6 @@
     display: inline-block;
     padding: 0 10px;
     cursor: pointer;
-    z-index: 1;
 }
 
 .header__cart-icon {
@@ -536,6 +535,7 @@
     animation: fadeIn ease-in 0.2s;
     cursor: default;
     display: none;
+    z-index: 1;
 }
 
 /* cart item */
@@ -709,6 +709,7 @@
     color: var(--text-color);
     padding: 0 16px;
     border-radius: 2px;
+    z-index: 1;
 }
 
 .header__search-select {
@@ -766,6 +767,7 @@ display: block;
     border-radius: 2px;
     display: none;
     animation: fadeIn ease-in 0.2s;
+    z-index: 1;
 }
 
 .header__search-option::after {
