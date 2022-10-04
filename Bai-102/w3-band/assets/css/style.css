@@ -97,10 +97,6 @@ html {
 
  /* main */
 
-#main {
-
-}
-
 #header {
     position: fixed;
     top: 0;
@@ -207,15 +203,14 @@ html {
     margin-top: 25px;
 }
 
-#content {
-
-}
-
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 64px 0 110px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .section-heading {
